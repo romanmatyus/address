@@ -162,11 +162,11 @@ class GoogleProvider extends Object implements IProvider
 			])),
 			$attr['city'],
 		]));
+		
+		$data['address'] = $term;
 
-		$data = [
-			'address' => $term,
-			'key' => $this->key,
-		];
+		if ($this->key)
+			$data['key'] = $this->key;
 
 		if ($this->language)
 			$data['language'] = $this->language;
