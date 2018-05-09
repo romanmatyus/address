@@ -1,0 +1,25 @@
+{
+	"name": "rm/address",
+	"type": "library",
+	"description": "Component for fetching address",
+	"homepage": "https://github.com/romanmatyus/address",
+	"license": ["MIT"],
+	"authors": [
+		{
+			"name": "Roman Mátyus"
+		}
+	],
+	"require": {
+		"nette/application": ">=2.3.0",
+		"nette/di": ">=2.3",
+		"nette/http": ">=2.3.0"
+	},
+	"autoload": {
+		"psr-0": {
+			"RM\\Address": "src/"
+		},
+		"classmap": [
+			"src/exceptions.php"
+		]
+	}
+}
