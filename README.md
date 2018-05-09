@@ -19,7 +19,7 @@ address:
 ```
 address:
 	google:
-		key: AIzaSyAxjvu_LufVeykgNVB5-fFwDbKooARUUPE
+		key: secretKeyFrom300gle
 ```
 
 ## In component
