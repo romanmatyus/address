@@ -19,7 +19,7 @@
 			"RM\\Address": "src/"
 		},
 		"classmap": [
-			"src/exceptions.php"
+			"src/RM/Address/exceptions.php"
 		]
 	}
 }
